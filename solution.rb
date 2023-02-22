@@ -4,6 +4,6 @@ get '/' do
   erb :index
 end
 
-get '/maker/:nombre' do
+get '/makers/:nombre' do
   erb :index
 end
