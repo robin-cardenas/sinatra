@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saludame1</title>
+</head>
+<body>
+    <%if params[:nombre]%>
+        <h1>Hola <%=params[:nombre]%>!</h1>
+    <%else%>
+        <h1>Hola desconocido!</h1>
+    <%end%>
+</body>
+</html>
